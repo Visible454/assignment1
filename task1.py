@@ -1,16 +1,14 @@
 # importing the module
 import sys
-  
-# storing the arguments
-program = sys.argv[0]
+
+# function definition
+def concat(s1, s2):
+	print(s1 + " " + s2 )
+
+# fetching the arguments
 arg1 = sys.argv[1]
 arg2 = sys.argv[2]
-  
-# displaying the program name
-print("Program name : " + program)
-  
-# displaying the arguments
-print("arg1 : " + arg1)
-print("arg2 : " + arg2)
-print("Number of arguments : ", len(sys.argv))
-print(sys.argv)
+
+
+# calling the function
+concat(arg1, arg2)
